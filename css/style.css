@@ -31,13 +31,14 @@ body {
   text-decoration: none;
   border: 3px solid #6c63ff;
   background: #f7dcbd;
+  border-radius: 5px;
 }
 .navbar-logo:hover {
   color: #f7dcbd;
   background: #6c63ff;
   box-shadow: var(--box-shadow);
   border-radius: 50%;
-  transition: ease-in-out 10ms;
+  transition: ease-in-out 100ms;
 }
 .side-nav {
   width: 130px;
