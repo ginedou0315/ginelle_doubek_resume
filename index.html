@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
-    <script src="https://kit.fontawesome.com/cc840606e0.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/cc840606e0.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -19,22 +22,39 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="css/style.css" />
-  <title>Ginelle Doubek Homepage</title>
-</head>
-<body>
-  <nav class="nav-bar">
-    <div class="side-nav">
-      <a href="#" class="navbar-logo">G.D.</a>
-      <ul class="nav-links">
-        <li><a href="#"><i class="fa fa-home" aria-hidden="true"></i> <small>Homepage</small></a></li>
-        <li><a href="#"><i class="fa-solid fa-list-check"></i> <small>Resume</small></a></li>
-        <li><a href="#"><i class="fa-solid fa-briefcase"></i> <small>Porfolio</small></a></li>
-        <li><a href="#"><i class="fa-solid fa-address-book"></i> <small>Contacts</small></a></li>
-      </ul>
-    </div>
-
-  </nav>
-  <div class="container border-bottom pb-4 ps-3">
+    <title>Ginelle Doubek Homepage</title>
+  </head>
+  <body>
+    <nav class="nav-bar">
+      <div class="side-nav">
+        <a href="#" class="navbar-logo">G.D.</a>
+        <ul class="nav-links">
+          <li>
+            <a href="#"
+              ><i class="fa fa-home" aria-hidden="true"></i>
+              <small>Homepage</small></a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><i class="fa-solid fa-list-check"></i> <small>Resume</small></a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><i class="fa-solid fa-briefcase"></i> <small>Porfolio</small></a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><i class="fa-solid fa-address-book"></i>
+              <small>Contacts</small></a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container border-bottom pb-4 ps-3">
       <div class="row">
         <div class="col-lg-4 text-center">
           <img
@@ -64,14 +84,119 @@
             </p>
           </div>
         </div>
-        
-  </div>
-   <script
+      </div>
+    </div>
+    <div class="text-center mt-5 ms-5">
+      <p class="d-inline-flex gap-5">
+        <button
+          class="btn btn-primary px-5"
+          data-bs-toggle="collapse"
+          href="#multiCollapseExample1"
+          role="button"
+          aria-expanded="false"
+          aria-controls="multiCollapseExample1"
+        >
+          Experience
+        </button>
+        <button
+          class="btn btn-primary px-5"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#multiCollapseExample2"
+          aria-expanded="false"
+          aria-controls="multiCollapseExample2"
+        >
+          Education
+        </button>
+        <button
+          class="btn btn-primary px-5"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#multiCollapseExample3"
+          aria-expanded="false"
+          aria-controls="multiCollapseExample3"
+        >
+          Skills
+        </button>
+      </p>
+      <div class="row">
+        <div class="col-4" id="experience-container">
+          <div class="collapse multi-collapse" id="multiCollapseExample1">
+            <div class="card card-body" id="experience">
+              <div class="timeline-area">
+                <div class="job-description">
+                  <h3>Abstract Coordinator</h3>
+                  <h4>EULAR - Zurich, Swizerland</h4>
+                  <p>2021-2023</p>
+                </div>
+                <div class="job-description">
+                  <h3>Sales Manager</h3>
+                  <h4>EULAR - Zurich, Swizerland</h4>
+                  <p>2021-2023</p>
+                </div>
+                <div class="job-description">
+                  <h3>Abstract Coordinator</h3>
+                  <h4>EULAR - Zurich, Swizerland</h4>
+                  <p>2021-2023</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="collapse multi-collapse" id="multiCollapseExample2">
+            <div class="card card-body" id="education">
+              <div class="timeline-area">
+                <div class="job-description">
+                  <h3>Abstract Coordinator</h3>
+                  <h4>EULAR - Zurich, Swizerland</h4>
+                  <p>2021-2023</p>
+                </div>
+                <div class="job-description">
+                  <h3>Sales Manager</h3>
+                  <h4>EULAR - Zurich, Swizerland</h4>
+                  <p>2021-2023</p>
+                </div>
+                <div class="job-description">
+                  <h3>Abstract Coordinator</h3>
+                  <h4>EULAR - Zurich, Swizerland</h4>
+                  <p>2021-2023</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="collapse multi-collapse" id="multiCollapseExample3">
+            <div class="card card-body" id="skills">
+              <div class="timeline-area">
+                <div class="job-description">
+                  <h3>Abstract Coordinator</h3>
+                  <h4>EULAR - Zurich, Swizerland</h4>
+                  <p>2021-2023</p>
+                </div>
+                <div class="job-description">
+                  <h3>Sales Manager</h3>
+                  <h4>EULAR - Zurich, Swizerland</h4>
+                  <p>2021-2023</p>
+                </div>
+                <div class="job-description">
+                  <h3>Abstract Coordinator</h3>
+                  <h4>EULAR - Zurich, Swizerland</h4>
+                  <p>2021-2023</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
     <script src="/index.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-</body>
+  </body>
 </html>

@@ -73,3 +73,79 @@ body {
 #self-description {
   margin-top: 40px;
 }
+
+.card-body {
+  width: 430px;
+  margin-left: 100px;
+  padding-top: 0% !important;
+  background: #f7dcbd;
+}
+
+#education {
+  position: relative;
+  right: 20%;
+}
+#skills {
+  position: relative;
+  right: 40%;
+}
+.timeline-area {
+  margin: 20px auto;
+  width: 360px;
+  border-left: 2px solid #ccc;
+  padding: 30px 20px 0 30px;
+  background-color: #f7dcbd;
+}
+.job-description {
+  background-color: #1f0725;
+  padding: 10px 25px;
+  font-size: 12px;
+  border: 1px solid #ccc;
+  line-height: 1.7;
+  position: relative;
+  height: 110px;
+  margin-bottom: 20px;
+  padding-top: 20px;
+}
+.job-description:before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #1f0725;
+  border: 3px solid black;
+  position: absolute;
+  top: 10px;
+  left: -42px;
+}
+.job-description:after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-color: transparent #1f0725 transparent transparent;
+  border-width: 8px;
+  position: absolute;
+  left: -17px;
+  top: 10px;
+}
+.job-description h3 {
+  font-size: 20px;
+  margin: 0;
+  text-transform: uppercase;
+  font-family: merienda;
+}
+.job-description h4 {
+  font-size: 15px;
+  margin: 0;
+  font-family: poppins;
+}
+#experience-container {
+  background-color: #1f0725 !important;
+}
+button {
+  color: #f7dcbd !important;
+  background: #1f0725 !important;
+  border: 1px solid #f7dcbd !important;
+}
