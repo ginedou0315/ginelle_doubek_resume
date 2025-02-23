@@ -79,9 +79,19 @@ body {
   color: #23072b;
 }
 .self_description {
+  font-family: "IBM Plex Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 200;
+  font-size: 20px;
+  margin-right: 25px;
   color: #23072b;
   max-width: 100%;
-  margin-right: 20px;
+}
+#self_description:lang(en, de) {
+  max-width: 100%;
+  margin-right: 40px !important;
 }
 #description-container {
   background-image: url(/images/studio-background-concept-abstract-empty-light-gradient-purple-studio-room-background-product.jpg) !important;
