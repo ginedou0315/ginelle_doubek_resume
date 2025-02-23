@@ -6,7 +6,7 @@
 :root {
   --primary-color: #6c63ff;
   --secondary-color: #f5f2fe;
-  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --box-shadow: rgba(123, 33, 141, 0.8);
   --body-color: #1f0725;
 }
 body {
@@ -36,7 +36,6 @@ body {
 .navbar-logo:hover {
   color: #f7dcbd;
   background: #6c63ff;
-  box-shadow: var(--box-shadow);
   border-radius: 50%;
   transition: ease-in-out 100ms;
 }
@@ -70,13 +69,25 @@ body {
   align-items: center;
   text-align: justify;
 }
+#ginelle_doubek,
+.self_description {
+  color: #23072b;
+}
+#description-container {
+  background-image: url(/images/studio-background-concept-abstract-empty-light-gradient-purple-studio-room-background-product.jpg) !important;
+  background-size: cover;
+  border-radius: 20px;
+  margin-top: 30px;
+  box-shadow: 5px 5px 5px var(--box-shadow);
+  border: none !important;
+}
 #self-description {
   margin-top: 40px;
+  padding-top: 50px;
 }
 
 .card-body {
   width: 430px;
-  margin-left: 100px;
   padding-top: 0% !important;
   background: #f7dcbd;
 }
@@ -88,6 +99,10 @@ body {
 #skills {
   position: relative;
   right: 40%;
+}
+#ginelle {
+  width: 450px;
+  height: 600px;
 }
 .timeline-area {
   margin: 20px auto;
@@ -141,11 +156,38 @@ body {
   margin: 0;
   font-family: poppins;
 }
-#experience-container {
-  background-color: #1f0725 !important;
-}
+
 button {
   color: #f7dcbd !important;
   background: #1f0725 !important;
   border: 1px solid #f7dcbd !important;
+}
+.photos-wrapper {
+  overflow: hidden;
+  display: flex;
+  margin-left: 150px;
+  margin-right: 140px;
+}
+.imageContainer {
+  display: flex;
+  flex-wrap: nowrap;
+  animation: scroll 20s linear infinite;
+  margin-top: 50px;
+}
+.image_certification1,
+.image_certification {
+  width: 330px;
+  height: 230px;
+  position: relative;
+  display: flex;
+  margin-left: 70px;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
 }
