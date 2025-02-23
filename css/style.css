@@ -69,9 +69,19 @@ body {
   align-items: center;
   text-align: justify;
 }
-#ginelle_doubek,
+#ginelle_doubek {
+  font-family: "Fleur De Leah", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 70px;
+}
+#job_based {
+  color: #23072b;
+}
 .self_description {
   color: #23072b;
+  max-width: 100%;
+  margin-right: 20px;
 }
 #description-container {
   background-image: url(/images/studio-background-concept-abstract-empty-light-gradient-purple-studio-room-background-product.jpg) !important;
