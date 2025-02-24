@@ -4,17 +4,18 @@
   box-sizing: border-box;
 }
 :root {
-  --primary-color: #6c63ff;
+  --primary-color: #f7dcbd;
   --secondary-color: #f5f2fe;
-  --box-shadow: rgba(123, 33, 141, 0.8);
-  --body-color: #1f0725;
+  --box-shadow: #b336fe;
+  --body-color: #020202;
 }
 body {
-  background: var(--body-color);
-  color: #f7dcbd;
+  background: url(/images/black_purple_white_flow.jpg);
+  background-size: cover;
+  color: var(--primary-color);
   font-family: "Roboto Serif", serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: 400;
   font-style: normal;
   font-variation-settings: "wdth" 100, "GRAD" 0;
 }
@@ -30,11 +31,11 @@ body {
   padding: 10px;
   text-decoration: none;
   border: 3px solid #6c63ff;
-  background: #f7dcbd;
+  background: var(--primary-color);
   border-radius: 5px;
 }
 .navbar-logo:hover {
-  color: #f7dcbd;
+  color: var(--primary-color);
   background: #6c63ff;
   border-radius: 50%;
   transition: ease-in-out 100ms;
@@ -57,7 +58,7 @@ body {
 }
 .nav-links li a {
   text-decoration: none;
-  color: #f7dcbd;
+  color: var(--primary-color);
 }
 .nav-links li a i {
   font-size: medium;
@@ -65,7 +66,7 @@ body {
 }
 .container {
   margin-left: 150px;
-  max-width: 85%;
+  max-width: 90%;
   align-items: center;
   text-align: justify;
 }
@@ -75,31 +76,27 @@ body {
   font-style: normal;
   font-size: 70px;
 }
-#job_based {
-  color: #23072b;
-}
+
 .self_description {
   font-family: "IBM Plex Sans", serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: bold;
   font-style: normal;
   font-variation-settings: "wdth" 200;
   font-size: 20px;
+  padding: 10px;
   margin-right: 25px;
-  color: #23072b;
   max-width: 100%;
+  background-color: #23072b;
+  opacity: 0.6;
+  border-radius: 5px;
 }
-#self_description:lang(en, de) {
-  max-width: 100%;
-  margin-right: 40px !important;
-}
+
 #description-container {
-  background-image: url(/images/studio-background-concept-abstract-empty-light-gradient-purple-studio-room-background-product.jpg) !important;
+  background-image: url(/images/abstract_purple_pink.jpg) !important;
   background-size: cover;
-  border-radius: 20px;
   margin-top: 30px;
   box-shadow: 5px 5px 5px var(--box-shadow);
-  border: none !important;
 }
 #self-description {
   margin-top: 40px;
@@ -109,27 +106,26 @@ body {
 .card-body {
   width: 430px;
   padding-top: 0% !important;
-  background: #f7dcbd;
+  background: var(--primary-color);
+  position: relative;
+  right: 45%;
 }
 
 #education {
   position: relative;
-  right: 20%;
+  right: 55%;
 }
 #skills {
   position: relative;
-  right: 40%;
+  right: 65%;
 }
-#ginelle {
-  width: 450px;
-  height: 600px;
-}
+
 .timeline-area {
   margin: 20px auto;
   width: 360px;
   border-left: 2px solid #ccc;
   padding: 30px 20px 0 30px;
-  background-color: #f7dcbd;
+  background-color: var(--primary-color);
 }
 .job-description {
   background-color: #1f0725;
@@ -178,9 +174,9 @@ body {
 }
 
 button {
-  color: #f7dcbd !important;
+  color: var(--primary-color) !important;
   background: #1f0725 !important;
-  border: 1px solid #f7dcbd !important;
+  border: 1px solid var(--primary-color) !important;
 }
 .photos-wrapper {
   overflow: hidden;
