@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary-color: #f7dcbd;
+  --secondary-color: #6b55a8;
+  --box-shadow: #b336fe;
+  --body-color: #020202;
+}
+body {
+  background: url(/images/black_purple_white_flow.jpg);
+  background-size: cover;
+  color: var(--primary-color);
+  font-family: "Roboto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100, "GRAD" 0;
+}
+.homepage-link {
+  display: block;
+  text-align: center;
+}
+.row {
+  border-bottom: 2px solid white;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+small {
+  color: azure;
+  opacity: 40%;
+}
+.iframe_content {
+  border: 1px solid purple;
+  border-radius: 5px;
+  align-items: center;
+  padding-top: 10px;
+}
+.other-projects {
+  text-align: center;
+}

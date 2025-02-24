@@ -207,3 +207,29 @@ button {
     transform: translateX(-50%);
   }
 }
+.divider {
+  border: 1px solid #ccc;
+  margin-top: 30px;
+}
+footer a {
+  font-size: 20px;
+  color: var(--primary-color) !important;
+}
+.contact_icons a {
+  font-size: 40px;
+  display: inline-block;
+  padding-inline: 20px;
+}
+.apps_hobbies {
+  position: relative;
+  left: 20%;
+  margin: 30px 10px 0 10px;
+  padding: 20px;
+}
+.skills {
+  height: 70px;
+  width: 100px;
+}
+#skills_learned img {
+  width: 60px;
+}
