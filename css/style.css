@@ -5,7 +5,7 @@
 }
 :root {
   --primary-color: #f7dcbd;
-  --secondary-color: #f5f2fe;
+  --secondary-color: #6b55a8;
   --box-shadow: #b336fe;
   --body-color: #020202;
 }
@@ -24,19 +24,19 @@ body {
   font-family: "Great Vibes", serif;
   font-weight: 600;
   font-style: normal;
-  font-size: 28px;
-  color: #6c63ff;
-  margin: 25px 25px 130px 25px;
+  font-size: 32px;
+  color: var(--secondary-color);
+  margin: 25px 10px 130px 22px;
   display: block;
-  padding: 10px;
+  padding: 20px;
   text-decoration: none;
-  border: 3px solid #6c63ff;
+  border: 3px solid var(--secondary-color);
   background: var(--primary-color);
   border-radius: 5px;
 }
 .navbar-logo:hover {
   color: var(--primary-color);
-  background: #6c63ff;
+  background: var(--secondary-color);
   border-radius: 50%;
   transition: ease-in-out 100ms;
 }
@@ -87,7 +87,7 @@ body {
   padding: 10px;
   margin-right: 25px;
   max-width: 100%;
-  background-color: #23072b;
+  background-color: var(--body-color);
   opacity: 0.6;
   border-radius: 5px;
 }

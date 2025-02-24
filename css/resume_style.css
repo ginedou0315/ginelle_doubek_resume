@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --primary-color: #f7dcbd;
+  --secondary-color: #6b55a8;
+  --box-shadow: #b336fe;
+  --body-color: #020202;
+}
+body {
+  background: url(/images/black_purple_white_flow.jpg);
+  background-size: cover;
+  color: var(--primary-color);
+  font-family: "Roboto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100, "GRAD" 0;
+}
+
+.homepage-link {
+  display: block;
+  text-align: center;
+}
+.timelime-wrapper {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 12% 2rem;
+  padding-left: 30px !important;
+}
+.timeline-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.timeline-heading {
+  font-size: 2.5rem;
+  margin: 2rem 0;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.timeline-heading i {
+  font-size: 4rem;
+}
+.content-box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 2rem;
+  margin: 0 2rem;
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(20px);
+  border: 3px solid rgb(110, 110, 110);
+  border-radius: 1rem;
+  font-size: 14px;
+  transition: 0.4s ease;
+  cursor: pointer;
+}
+.content-box:hover {
+  box-shadow: 0 0 25px rgb(214, 109, 214);
+  border: 3px solid rgb(214, 109, 214);
+}
+.timeline-box {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  border-left: 5px solid rgb(214, 109, 214);
+}
+.content-box h3 {
+  font-size: 1.3rem;
+}
+.timeline-date {
+  font-size: 1.7rem;
+  color: rgb(214, 109, 214);
+}
+.content-box::before {
+  position: absolute;
+  content: "";
+  width: 25px;
+  height: 25px;
+  background-color: rgb(214, 109, 214);
+  border-radius: 50%;
+  left: -50px;
+  top: 90px;
+}
+.skills-container {
+  position: relative;
+  left: 10%;
+  margin: 30px 0 30px 0;
+}
+.skill {
+  width: 100%;
+  max-width: 450px;
+}
+.skill-name {
+  font-size: 16px;
+  font-weight: 600;
+  color: #c5b3e6;
+  text-transform: uppercase;
+  margin: 20px 0;
+  text-align: left;
+}
+.skill-bar {
+  height: 14px;
+  background-color: #f5f2fe;
+  border-radius: 4px;
+}
+.skill-per {
+  height: 14px;
+  background: rgb(214, 109, 214);
+  border-radius: 4px;
+  position: relative;
+  animation: fillBars 2.5s 1;
+}
+
+@keyframes fillBars {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
