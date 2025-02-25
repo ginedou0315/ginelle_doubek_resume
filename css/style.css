@@ -221,15 +221,11 @@ footer a {
   padding-inline: 20px;
 }
 .apps_hobbies {
-  position: relative;
-  align-items: center;
-  margin: 30px 50px 0 100px;
+  margin: 30px 0 10px 100px;
   padding: 50px;
 }
 .skills {
+  width: 50px;
   height: 70px;
-  width: 100px;
-}
-#skills_learned img {
-  width: 60px;
+  align-items: center;
 }
