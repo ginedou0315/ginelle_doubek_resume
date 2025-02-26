@@ -228,3 +228,6 @@ footer a {
   height: 50px;
   margin-top: 10px;
 }
+.rotating {
+  animation: rotating 10slinear infinite;
+}
