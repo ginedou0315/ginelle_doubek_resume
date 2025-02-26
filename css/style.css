@@ -93,10 +93,9 @@ body {
 }
 
 #description-container {
-  background-image: url(/images/abstract_purple_pink.jpg) !important;
-  background-size: cover;
+  /*background-image: url(/images/abstract_purple_pink.jpg) !important;*/
+
   margin-top: 30px;
-  box-shadow: 5px 5px 5px var(--box-shadow);
 }
 #self-description {
   margin-top: 40px;
@@ -108,16 +107,16 @@ body {
   padding-top: 0% !important;
   background: var(--primary-color);
   position: relative;
-  right: 45%;
+  right: 40%;
 }
 
 #education {
   position: relative;
-  right: 55%;
+  right: 35%;
 }
 #skills {
   position: relative;
-  right: 60%;
+  right: 30%;
 }
 
 .timeline-area {
