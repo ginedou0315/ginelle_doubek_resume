@@ -94,7 +94,6 @@ body {
 
 #description-container {
   /*background-image: url(/images/abstract_purple_pink.jpg) !important;*/
-
   margin-top: 30px;
 }
 #self-description {
@@ -106,19 +105,16 @@ body {
   width: 430px;
   padding-top: 0% !important;
   background: var(--primary-color);
-  position: relative;
-  right: 40%;
 }
 
 #education {
   position: relative;
-  right: 35%;
+  right: -40%;
 }
-#skills {
-  position: relative;
-  right: 30%;
+.download_cv {
+  text-decoration: none;
+  color: var(--primary-color);
 }
-
 .timeline-area {
   margin: 20px auto;
   width: 360px;
@@ -126,18 +122,20 @@ body {
   padding: 30px 20px 0 30px;
   background-color: var(--primary-color);
 }
-.job-description {
+.job-description,
+.education-description {
   background-color: #1f0725;
   padding: 10px 25px;
   font-size: 12px;
   border: 1px solid #ccc;
   line-height: 1.7;
   position: relative;
-  height: 110px;
+  height: 130px;
   margin-bottom: 20px;
-  padding-top: 20px;
+  padding-top: 10px;
 }
-.job-description:before {
+.job-description:before,
+.education-description::before {
   content: "";
   display: block;
   width: 20px;
@@ -149,7 +147,8 @@ body {
   top: 10px;
   left: -42px;
 }
-.job-description:after {
+.job-description:after,
+.education-description:after {
   content: "";
   width: 0;
   height: 0;
@@ -160,13 +159,15 @@ body {
   left: -17px;
   top: 10px;
 }
-.job-description h3 {
+.job-description h3,
+.education-description h3 {
   font-size: 20px;
   margin: 0;
   text-transform: uppercase;
   font-family: merienda;
 }
-.job-description h4 {
+.job-description h4,
+.education-description h4 {
   font-size: 15px;
   margin: 0;
   font-family: poppins;
