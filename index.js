@@ -27,7 +27,10 @@ const translations = {
       "With over 18 years of experience in business development, sales, and data management. I have developed a strong skill set in prospecting, client relationship management, and strategic planning. In 2023, I found my passion for web development and completed an online bootcamp for women. This experience ignited my desire to learn and grow in this field. Over the past two years, I've honed my skills and am now an aspiring Front-End Web Developer, committed to creating dynamic and responsive websites. My extensive professional background seamlessly integrates with my new career, allowing me to leverage my strategic and communication skills in the tech industry.",
     experience: "Experience",
     education: "Education",
+    downloadcv: "Download CV",
     skills: "Skills",
+    hobbies: "Hobbies",
+
     // Add more translations as needed
   },
   de: {
@@ -42,7 +45,10 @@ const translations = {
       "Ich verfüge über 18 Jahre Erfahrung in den Bereichen Geschäftsentwicklung, Vertrieb und Datenmanagement. Ich habe starke Fähigkeiten in den Bereichen Akquise, Kundenbeziehungsmanagement und strategische Planung entwickelt. Im Jahr 2023 entdeckte ich meine Leidenschaft für die Webentwicklung und absolvierte ein Online-Bootcamp für Frauen. Diese Erfahrung hat meinen Wunsch geweckt, in diesem Bereich zu lernen und zu wachsen. In den letzten zwei Jahren habe ich meine Fähigkeiten verfeinert und bin nun eine aufstrebende Front-End-Webentwicklerin, die sich der Erstellung dynamischer und reaktionsschneller Websites verschrieben hat. Mein umfangreicher beruflicher Hintergrund fügt sich nahtlos in meine neue Karriere ein und ermöglicht es mir, meine strategischen und kommunikativen Fähigkeiten in der Technologiebranche zu nutzen.",
     experience: "Erfahrung",
     education: "Ausbildung",
-    skills: "Fähigkeiten",
+    downloadcv: "CV Herunterladen",
+    skills: "Kompetenzen",
+    hobbies: "Hobbys",
+
     // Add more translations as needed
   },
 };
@@ -66,6 +72,8 @@ function switchLanguage(lang) {
   ).innerText = translations[lang].education;
   document.querySelector(
     'button[aria-controls="multiCollapseExample3"]'
-  ).innerText = translations[lang].skills;
+  ).innerText = translations[lang].downloadcv;
+  document.querySelector("#skills").innerText = translations[lang].skills;
+  document.querySelector("#hobbies").innerText = translations[lang].hobbies;
   // Update more elements as needed
 }
