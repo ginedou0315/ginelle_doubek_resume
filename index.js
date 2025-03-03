@@ -24,7 +24,7 @@ const translations = {
     name: "Ginelle Doubek",
     description: "Website Developer, based in Switzerland",
     introduction:
-      "With over 18 years of experience in business development, sales, and data management. I have developed a strong skill set in prospecting, client relationship management, and strategic planning. In 2023, I found my passion for web development and completed an online bootcamp for women. This experience ignited my desire to learn and grow in this field. Over the past two years, I've honed my skills and am now an aspiring Full Stack Web Developer, committed to creating dynamic and responsive websites. My extensive professional background seamlessly integrates with my new career, allowing me to leverage my strategic and communication skills in the tech industry.",
+      "With over 18 years of experience in business development, sales, and data management. I have developed a strong skill set in prospecting, client relationship management, and strategic planning. In 2023, I found my passion for web development and completed an online bootcamp for women. This experience ignited my desire to learn and grow in this field. Over the past two years, I've honed my skills and am now an aspiring Front-End Web Developer, committed to creating dynamic and responsive websites. My extensive professional background seamlessly integrates with my new career, allowing me to leverage my strategic and communication skills in the tech industry.",
     experience: "Experience",
     education: "Education",
     skills: "Skills",
@@ -39,7 +39,7 @@ const translations = {
     name: "Ginelle Doubek",
     description: "Website-Entwicklerin, mit Sitz in der Schweiz",
     introduction:
-      "Ich verfüge über 18 Jahre Erfahrung in den Bereichen Geschäftsentwicklung, Vertrieb und Datenmanagement. Ich habe starke Fähigkeiten in den Bereichen Akquise, Kundenbeziehungsmanagement und strategische Planung entwickelt. Im Jahr 2023 entdeckte ich meine Leidenschaft für die Webentwicklung und absolvierte ein Online-Bootcamp für Frauen. Diese Erfahrung hat meinen Wunsch geweckt, in diesem Bereich zu lernen und zu wachsen. In den letzten zwei Jahren habe ich meine Fähigkeiten verfeinert und bin nun eine aufstrebende Full-Stack-Webentwicklerin, die sich der Erstellung dynamischer und reaktionsschneller Websites verschrieben hat. Mein umfangreicher beruflicher Hintergrund fügt sich nahtlos in meine neue Karriere ein und ermöglicht es mir, meine strategischen und kommunikativen Fähigkeiten in der Technologiebranche zu nutzen.",
+      "Ich verfüge über 18 Jahre Erfahrung in den Bereichen Geschäftsentwicklung, Vertrieb und Datenmanagement. Ich habe starke Fähigkeiten in den Bereichen Akquise, Kundenbeziehungsmanagement und strategische Planung entwickelt. Im Jahr 2023 entdeckte ich meine Leidenschaft für die Webentwicklung und absolvierte ein Online-Bootcamp für Frauen. Diese Erfahrung hat meinen Wunsch geweckt, in diesem Bereich zu lernen und zu wachsen. In den letzten zwei Jahren habe ich meine Fähigkeiten verfeinert und bin nun eine aufstrebende Front-End-Webentwicklerin, die sich der Erstellung dynamischer und reaktionsschneller Websites verschrieben hat. Mein umfangreicher beruflicher Hintergrund fügt sich nahtlos in meine neue Karriere ein und ermöglicht es mir, meine strategischen und kommunikativen Fähigkeiten in der Technologiebranche zu nutzen.",
     experience: "Erfahrung",
     education: "Ausbildung",
     skills: "Fähigkeiten",

@@ -3,15 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
     <script
       src="https://kit.fontawesome.com/cc840606e0.js"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&family=Dancing+Script:wght@400..700&family=Delius&family=Great+Vibes&family=Indie+Flower&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lexend:wght@100..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Source+Code+Pro:ital,wght@1,300&display=swap"
       rel="stylesheet"
@@ -53,7 +56,7 @@
             >
           </li>
           <li>
-            <a href="#"
+            <a href="/#email"
               ><i class="fa-solid fa-address-book"></i>
               <small id="contact">Contacts</small></a
             >
@@ -90,7 +93,7 @@
               planning. In 2023, I found my passion for web development and
               completed an online bootcamp for women. This experience ignited my
               desire to learn and grow in this field. Over the past two years,
-              I've honed my skills and am now an aspiring Full Stack Web
+              I've honed my skills and am now an aspiring Front-End Web
               Developer, committed to creating dynamic and responsive websites.
               My extensive professional background seamlessly integrates with my
               new career, allowing me to leverage my strategic and communication
@@ -121,7 +124,13 @@
                   Education
                 </button>
                 <button class="btn btn-primary px-5" type="button">
-                  <a class="download_cv" href="#"> Download CV</a>
+                  <a
+                    class="download_cv"
+                    href="/files/GDoubek_CV_en_feb2025.pdf"
+                    target="_blank"
+                  >
+                    Download CV</a
+                  >
                 </button>
               </p>
               <div class="row">
@@ -342,17 +351,47 @@
         </div>
         <div class="col-5 ps-5">
           <h1>Hobbies</h1>
-          <div class="row row-cols-3">
-            <div class="col">Tennis</div>
-            <div class="col">Fitness</div>
-            <div class="col">Hiking</div>
-            <div class="col">Cross-Country</div>
+          <div class="row row-cols-3 text-center">
+            <div class="col hobbies">
+              <i class="bx bx-tennis-ball bx-lg bx-rotate-270"></i>
+              <div>Tennis</div>
+            </div>
+            <div class="col hobbies">
+              <i class="bx bx-run bx-lg"></i>
+              <div>Running(Race)</div>
+            </div>
+            <div class="col hobbies">
+              <i class="bx bx-cycling bx-lg"></i>
+              <div>Cycling</div>
+            </div>
+            <div class="col hobbies">
+              <i class="bx bx-cable-car bx-lg"></i>
+              <div>Winter Sports</div>
+            </div>
+            <div class="col hobbies">
+              <i class="bx bx-dumbbell bx-lg"></i>
+              <div>Fitness</div>
+            </div>
+
+            <div class="col hobbies">
+              <i class="bx bx-landscape bx-lg"></i>
+              <div>Hiking</div>
+            </div>
+
+            <div class="col hobbies">
+              <i class="bx bxs-plane-alt bx-lg"></i>
+              <div>Travel</div>
+            </div>
+            <div class="col hobbies">
+              <i class="bx bx-palette bx-lg"></i>
+              <div>Paint</div>
+            </div>
           </div>
         </div>
       </div>
     </div>
     <h1 class="text-center pt-5">Certifications</h1>
-    <div class="photos-wrapper">
+    <div class="photos-wrapper mb-3">
       <div class="imageContainer">
         <a href="https://success.simplilearn.com/85031165" target="_blank"
           ><img
@@ -400,11 +439,15 @@
         /></a>
       </div>
     </div>
-    <div class="divider"></div>
-    <footer class="text-center mt-4">
-      <a href="mailto:ginelle.doubek@gmail.com" class="text-center"
-        >ginelle.doubek@gmail.com</a
-      >
+    <footer class="text-center pt-3">
+      <div>
+        <a href="mailto:ginelle.doubek@gmail.com" class="text-center" id="email"
+          >ginelle.doubek@gmail.com</a
+        >
+      </div>
+      <div>
+        <a href="tel:+41768292353" class="text-center">+41768292353</a>
+      </div>
       <div class="contact_icons">
         <span>
           <a href="https://www.linkedin.com/in/ginelledoubek/" target="_blank"
@@ -432,6 +475,7 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
     <script src="/index.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
   </body>

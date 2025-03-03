@@ -212,8 +212,16 @@ button {
 }
 footer a {
   font-size: 20px;
-  color: var(--primary-color) !important;
+  color: #b336fe !important;
+  text-decoration: none;
 }
+footer small {
+  color: #b336fe !important;
+}
+footer {
+  background: #131313;
+}
+
 .contact_icons a {
   font-size: 40px;
   display: inline-block;
@@ -230,4 +238,7 @@ footer a {
 }
 .rotating {
   animation: rotating 10slinear infinite;
+}
+.hobbies i {
+  color: #b336fe;
 }
