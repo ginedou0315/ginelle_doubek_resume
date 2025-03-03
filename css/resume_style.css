@@ -122,6 +122,11 @@ body {
   bottom: 50%;
   z-index: auto;
 }
+.language-switcher button {
+  color: var(--primary-color) !important;
+  background: none !important;
+  border: 1px solid var(--primary-color) !important;
+}
 
 @keyframes fillBars {
   from {

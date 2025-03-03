@@ -46,3 +46,8 @@ small {
 a {
   color: var(--secondary-color) !important;
 }
+.language-switcher button {
+  color: var(--primary-color) !important;
+  background: none !important;
+  border: 1px solid var(--primary-color) !important;
+}
