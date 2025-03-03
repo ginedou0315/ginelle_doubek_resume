@@ -1,6 +1,6 @@
 * {
   margin: 0;
-  padding: 0;
+  padding: 10px;
 }
 :root {
   --primary-color: #f7dcbd;
@@ -115,6 +115,11 @@ body {
   border-radius: 4px;
   position: relative;
   animation: fillBars 2.5s 1;
+}
+#skills-container {
+  position: relative !important;
+  bottom: 50%;
+  z-index: auto;
 }
 
 @keyframes fillBars {
