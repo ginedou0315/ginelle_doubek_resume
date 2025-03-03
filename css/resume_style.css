@@ -22,7 +22,7 @@ body {
 .homepage-link {
   display: block;
   text-align: center;
-  color: var(--secondary-color) !important;
+  color: var(--box-shadow) !important;
 }
 .timelime-wrapper {
   min-height: 100vh;
