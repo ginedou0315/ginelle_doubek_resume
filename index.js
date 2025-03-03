@@ -30,6 +30,7 @@ const translations = {
     downloadcv: "Download CV",
     skills: "Skills",
     hobbies: "Hobbies",
+    certification: "Certifications",
 
     // Add more translations as needed
   },
@@ -48,6 +49,7 @@ const translations = {
     downloadcv: "CV Herunterladen",
     skills: "Kompetenzen",
     hobbies: "Hobbys",
+    certification: "Zertifizierungen",
 
     // Add more translations as needed
   },
@@ -75,5 +77,7 @@ function switchLanguage(lang) {
   ).innerText = translations[lang].downloadcv;
   document.querySelector("#skills").innerText = translations[lang].skills;
   document.querySelector("#hobbies").innerText = translations[lang].hobbies;
+  document.querySelector("#certification").innerText =
+    translations[lang].certification;
   // Update more elements as needed
 }
