@@ -22,6 +22,7 @@ body {
 .homepage-link {
   display: block;
   text-align: center;
+  color: var(--secondary-color) !important;
 }
 .row {
   border-bottom: 2px solid white;
@@ -41,4 +42,7 @@ small {
 }
 .other-projects {
   text-align: center;
+}
+a {
+  color: var(--secondary-color) !important;
 }
