@@ -29,16 +29,20 @@
       |
       <button onclick="switchLanguage('de')">DE</button>
     </div>
-    <a href="/index.html" class="text-center homepage-link mt-3 mb-3"
+    <a
+      href="/index.html"
+      class="text-center homepage-link mt-3 mb-3"
+      id="homepage"
       >Back to homepage</a
     >
-    <h1 class="text-center">My Resume</h1>
+    <h1 class="text-center" id="resume">My Resume</h1>
 
     <div class="timeline-wrapper">
       <div class="timeline-row">
         <div class="timeline-col ps-3">
           <h2 class="timeline-heading">
-            <i class="bx bxs-briefcase-alt-2"></i> Experience
+            <i class="bx bxs-briefcase-alt-2"></i>
+            <span id="experience">Experience</span>
           </h2>
           <div class="timeline-box">
             <div class="content-box">
@@ -114,7 +118,8 @@
         </div>
         <div class="timeline-col ps-3">
           <h2 class="timeline-heading">
-            <i class="bx bxs-graduation"></i> Education
+            <i class="bx bxs-graduation"></i>
+            <span id="education">Education</span>
           </h2>
           <div class="timeline-box">
             <div class="content-box">
@@ -193,5 +198,6 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <script src="/resume.js"></script>
   </body>
 </html>
