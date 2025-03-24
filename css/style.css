@@ -78,18 +78,9 @@ body {
 }
 
 .self_description {
-  font-family: "IBM Plex Sans", serif;
-  font-optical-sizing: auto;
-  font-weight: bold;
-  font-style: normal;
-  font-variation-settings: "wdth" 200;
-  font-size: 20px;
-  padding: 10px;
-  margin-right: 25px;
   max-width: 100%;
+  padding-right: 20px;
   background-color: var(--body-color);
-  opacity: 0.8;
-  border-radius: 5px;
 }
 
 #description-container {
