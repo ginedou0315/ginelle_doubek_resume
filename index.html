@@ -82,7 +82,7 @@
         </div>
         <div class="col-md-8 primary-text" id="self-description">
           <h1 class="text-center mt-5" id="ginelle_doubek">Ginelle Doubek</h1>
-          <p class="text-center mt-2 mb-3 fw-bold" id="job_based">
+          <p class="text-center mt-2 mb-3" id="job_based">
             "I am a woman of action."
           </p>
           <div class="self_description">
@@ -139,19 +139,21 @@
       <div class="text-center mt-5 ms-5">
         <p class="d-inline-flex gap-5">
           <button
-            class="btn btn-primary px-5"
+            class="btn btn-primary px-5 collapsible"
+            type="button"
             data-bs-toggle="collapse"
-            href="#multiCollapseExample1"
-            role="button"
+            data-target="content1"
+            data-bs-target="#multiCollapseExample1"
             aria-expanded="false"
             aria-controls="multiCollapseExample1"
           >
             Experience
           </button>
           <button
-            class="btn btn-primary px-5"
+            class="btn btn-primary px-5 collapsible"
             type="button"
             data-bs-toggle="collapse"
+            data-target="content2"
             data-bs-target="#multiCollapseExample2"
             aria-expanded="false"
             aria-controls="multiCollapseExample2"
@@ -159,8 +161,9 @@
             Education
           </button>
           <button
-            class="btn btn-primary px-5"
+            class="btn btn-primary px-5 collapsible"
             type="button"
+            data-target="content3"
             aria-controls="multiCollapseExample3"
           >
             <a
@@ -226,7 +229,7 @@
           </div>
           <div class="col-4">
             <div
-              class="collapse multi-collapse"
+              class="collapse multi-collapse content"
               id="multiCollapseExample3"
             ></div>
           </div>

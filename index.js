@@ -81,3 +81,27 @@ function switchLanguage(lang) {
     translations[lang].certification;
   // Update more elements as needed
 }
+
+document.addEventListener("DOMContentLoaded", function () {
+  const buttons = document.querySelectorAll(".collapsible");
+
+  buttons.forEach((button) => {
+    button.addEventListener("click", function () {
+      const targetId = this.getAttribute("data-bs-target");
+      const targetElement = document.querySelector(targetId);
+
+      // Check if the clicked section is already open
+      const isAlreadyOpen = targetElement.classList.contains("show");
+
+      // Close all open sections
+      document.querySelectorAll(".collapse.show").forEach((collapse) => {
+        bootstrap.Collapse.getOrCreateInstance(collapse).hide();
+      });
+
+      // If it was NOT open, open it
+      if (!isAlreadyOpen) {
+        bootstrap.Collapse.getOrCreateInstance(targetElement).show();
+      }
+    });
+  });
+});

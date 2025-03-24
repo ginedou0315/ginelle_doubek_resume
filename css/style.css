@@ -70,6 +70,11 @@ body {
   align-items: center;
   text-align: justify;
 }
+#job_based {
+  font-family: "Fleur De Leah", serif;
+  font-size: 30px;
+  font-style: normal;
+}
 #ginelle_doubek {
   font-family: "Fleur De Leah", serif;
   font-weight: 400;
@@ -81,6 +86,7 @@ body {
   max-width: 100%;
   padding-right: 20px;
   background-color: var(--body-color);
+  font-size: 15px;
 }
 
 #description-container {
@@ -179,7 +185,7 @@ button {
 #education {
   width: 1000px !important;
   position: relative;
-  right: 60%;
+  right: 65%;
 }
 .photos-wrapper {
   overflow: hidden;
