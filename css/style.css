@@ -107,8 +107,8 @@ body {
   color: var(--primary-color);
 }
 .timeline-area {
-  margin: 20px auto;
-  width: 360px;
+  margin-left: 20px;
+  width: 90%;
   border-left: 2px solid #ccc;
   padding: 30px 20px 0 30px;
   background-color: var(--primary-color);
@@ -168,6 +168,18 @@ button {
   color: var(--primary-color) !important;
   background: #1f0725 !important;
   border: 1px solid var(--primary-color) !important;
+}
+
+#experience {
+  width: 1000px !important;
+  position: relative;
+  left: 40%;
+}
+
+#education {
+  width: 1000px !important;
+  position: relative;
+  right: 60%;
 }
 .photos-wrapper {
   overflow: hidden;
