@@ -23,7 +23,7 @@ body {
 @media (min-width: 1500px) {
   #self-description {
     position: relative;
-    bottom: 20%;
+    bottom: 40%;
   }
 }
 .navbar-logo {
