@@ -19,6 +19,9 @@ body {
   font-style: normal;
   font-variation-settings: "wdth" 100, "GRAD" 0;
 }
+small {
+  font-family: "Roboto Serif", serif;
+}
 
 @media (min-width: 1600px) {
   #self-description {
