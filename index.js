@@ -22,9 +22,9 @@ const translations = {
     portfolio: "Portfolio",
     contact: "Contacts",
     name: "Ginelle Doubek",
-    /// description: "Website Developer, based in Switzerland",
-    /// introduction:
-      "With over 18 years of experience in business development, sales, and data management. I have developed a strong skill set in prospecting, client relationship management, and strategic planning. In 2023, I found my passion for web development and completed an online bootcamp for women. This experience ignited my desire to learn and grow in this field. Over the past two years, I've honed my skills and am now an aspiring Front-End Web Developer, committed to creating dynamic and responsive websites. My extensive professional background seamlessly integrates with my new career, allowing me to leverage my strategic and communication skills in the tech industry.",
+    description: '"I am a woman of action."',
+    introduction:
+      "At the beginning of my career, I was leaning towards of becoming a researcher. I finished my Bachelors in Agricultural Economics and majored in Price and Marketing analysis. My first job was in Data management for local projects that my previous university was conducting. I was collecting and storing information from each projects assigned to me. I only stayed on the job for one year and started to look for something more challenging. I moved to the city and found a job as a Sales Assistant. Just a month being in the position, my immediate manager saw the potential in me and promoted me to Sales Manager. This started my journey in Sales and Marketing from working with different multinational companies like Unilever, Procter & Gamble and Nestle. After a few years working in Sales, I took break to study Master in Business Management. During this time, I also worked as Research assistant part-time for a non-profit organization (International Rice Research Institute).",
     experience: "Experience",
     education: "Education",
     downloadcv: "Download CV",
@@ -41,9 +41,9 @@ const translations = {
     portfolio: "Projekte",
     contact: "Kontakte",
     name: "Ginelle Doubek",
-    /// description: "Website-Entwicklerin, mit Sitz in der Schweiz",
-    /// introduction:
-      "Ich verfüge über 18 Jahre Erfahrung in den Bereichen Geschäftsentwicklung, Vertrieb und Datenmanagement. Ich habe starke Fähigkeiten in den Bereichen Akquise, Kundenbeziehungsmanagement und strategische Planung entwickelt. Im Jahr 2023 entdeckte ich meine Leidenschaft für die Webentwicklung und absolvierte ein Online-Bootcamp für Frauen. Diese Erfahrung hat meinen Wunsch geweckt, in diesem Bereich zu lernen und zu wachsen. In den letzten zwei Jahren habe ich meine Fähigkeiten verfeinert und bin nun eine aufstrebende Front-End-Webentwicklerin, die sich der Erstellung dynamischer und reaktionsschneller Websites verschrieben hat. Mein umfangreicher beruflicher Hintergrund fügt sich nahtlos in meine neue Karriere ein und ermöglicht es mir, meine strategischen und kommunikativen Fähigkeiten in der Technologiebranche zu nutzen.",
+    description: '"Ich bin eine Frau der Tat."',
+    introduction:
+      "Zu Beginn meiner Laufbahn tendierte ich dazu, Forscher zu werden. Ich habe meinen Bachelor in Agrarwirtschaft mit dem Schwerpunkt Preis- und Marketinganalyse gemacht. Mein erster Job war das Datenmanagement für lokale Projekte, die meine frühere Universität durchführte. Ich sammelte und speicherte Informationen aus allen mir zugewiesenen Projekten. Ich blieb nur ein Jahr in diesem Job und suchte nach einer größeren Herausforderung. Ich zog in die Stadt und fand eine Stelle als Vertriebsassistentin. Nach nur einem Monat in dieser Position erkannte mein direkter Vorgesetzter das Potenzial in mir und beförderte mich zum Vertriebsleiter. Damit begann meine Reise in den Bereich Vertrieb und Marketing, wo ich für verschiedene multinationale Unternehmen wie Unilever, Procter & Gamble und Nestle arbeitete. Nach einigen Jahren im Vertrieb machte ich eine Pause, um meinen Master in Business Management zu machen. Während dieser Zeit arbeitete ich auch als Forschungsassistentin in Teilzeit für eine gemeinnützige Organisation (International Rice Research Institute).",
     experience: "Erfahrung",
     education: "Ausbildung",
     downloadcv: "CV Herunterladen",
@@ -79,7 +79,6 @@ function switchLanguage(lang) {
   document.querySelector("#hobbies").innerText = translations[lang].hobbies;
   document.querySelector("#certification").innerText =
     translations[lang].certification;
-  // Update more elements as needed
 }
 
 document.addEventListener("DOMContentLoaded", function () {

@@ -48,6 +48,7 @@ body {
     left: 1%;
   }
 }
+
 .navbar-logo {
   font-family: "Great Vibes", serif;
   font-weight: 600;
@@ -147,10 +148,6 @@ body {
   background: var(--primary-color);
 }
 
-#education {
-  position: relative;
-  right: -40%;
-}
 .download_cv {
   text-decoration: none;
   color: var(--primary-color);
@@ -222,7 +219,7 @@ button {
 #experience {
   width: 1000px !important;
   position: relative;
-  left: 43%;
+  left: 14%;
 }
 
 #education {
