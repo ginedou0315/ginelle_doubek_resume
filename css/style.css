@@ -31,6 +31,10 @@ body {
     position: relative;
     left: 10%;
   }
+  .langauge-class {
+    position: relative;
+    right: 10%;
+  }
 }
 .navbar-logo {
   font-family: "Great Vibes", serif;
