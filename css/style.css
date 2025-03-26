@@ -20,6 +20,12 @@ body {
   font-variation-settings: "wdth" 100, "GRAD" 0;
 }
 
+@media (min-width: 1500px) {
+  #self-description {
+    position: relative;
+    bottom: 20%;
+  }
+}
 .navbar-logo {
   font-family: "Great Vibes", serif;
   font-weight: 600;
