@@ -37,7 +37,7 @@ body {
   }
   #experience {
     position: relative;
-    right: 10%;
+    right: -50%;
   }
 }
 .navbar-logo {
