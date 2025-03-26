@@ -106,6 +106,14 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
+function displayAnswer(response) {
+  new Typewriter("#question", {
+    strings: response.data.answer,
+    autoStart: true,
+    cursor: null,
+    delay: 10,
+  });
+}
 function generateQuestion(event) {
   event.preventDefault();
 

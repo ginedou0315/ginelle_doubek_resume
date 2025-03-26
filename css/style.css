@@ -262,7 +262,42 @@ button {
 #question-request {
   text-align: center;
 }
-
+.submit_button {
+  margin-left: 10px;
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  border: none;
+  width: 100px;
+  font-size: 12px;
+  border-radius: 20px;
+  padding: 10px 20px;
+}
+.question {
+  font-size: 16px;
+  background: var(--body-color);
+  color: var(--primary-color);
+  margin-top: 10px;
+  padding: 20px;
+  line-height: 1.5;
+  border-left: 3px solid rgb(36, 23, 65);
+  box-shadow: 0px 4px 30px 0px rgb(214, 109, 214);
+  height: 160px;
+  border-radius: 5px;
+}
+.generating {
+  animation: blink-animation 1s steps(5, start) infinite;
+  color: var(--primary-color);
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
 .button_container,
 #title_AI {
   position: relative;
@@ -323,4 +358,61 @@ footer {
 }
 .hobbies i {
   color: #b336fe;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text-container {
+  display: flex;
+}
+.text-container h3 {
+  text-align: center;
+  margin-left: 15px;
+  line-height: 90px;
+  height: 60px;
+  font-size: 30px;
+  font-weight: 400;
+  overflow: hidden;
+}
+.text-container .dynamic-text {
+  line-height: 90px;
+  height: 60px;
+  overflow: hidden;
+}
+.dynamic-text li {
+  list-style: none;
+  color: #c5b3e6;
+  font-size: 30px;
+  font-weight: 500;
+  top: 0;
+  animation: slide 12s steps(4) infinite;
+}
+@keyframes slide {
+  100% {
+    top: -360px;
+  }
+}
+.dynamic-text li {
+  position: relative;
+}
+.dynamic-text li::after {
+  content: "";
+  position: absolute;
+  background: #220329;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  border-left: 2px solid plum;
+  animation: typing 3s steps(10) infinite;
+}
+@keyframes typing {
+  40%,
+  60% {
+    left: calc(100% + 30px);
+  }
+  100% {
+    left: 0;
+  }
 }
