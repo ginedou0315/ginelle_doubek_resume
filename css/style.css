@@ -245,10 +245,22 @@ button {
   margin-bottom: 15px;
   box-shadow: 0px 4px 30px 0px rgb(214, 109, 214);
   margin-top: 20px;
-  width: 80%;
+  width: 70%;
   align-items: center;
   position: relative;
   left: 17%;
+}
+.input_element {
+  padding: 12px;
+  border: 1px solid #3b1e54;
+  width: 80%;
+  font-size: 12px;
+  border-radius: 10px;
+  line-height: 15px;
+  color: #3b1e54;
+}
+#question-request {
+  text-align: center;
 }
 
 .button_container,
