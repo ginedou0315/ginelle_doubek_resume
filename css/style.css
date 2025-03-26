@@ -37,9 +37,8 @@ body {
   }
   #experience {
     width: 1000px !important;
-    text-align: center;
     position: relative;
-    left: 50%;
+    left: 70%;
   }
 }
 .navbar-logo {
@@ -216,13 +215,13 @@ button {
 #experience {
   width: 1000px !important;
   position: relative;
-  left: 40%;
+  left: 43%;
 }
 
 #education {
   width: 1000px !important;
   position: relative;
-  right: 65%;
+  right: 63%;
 }
 .photos-wrapper {
   overflow: hidden;
