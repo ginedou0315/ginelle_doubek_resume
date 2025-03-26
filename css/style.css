@@ -19,9 +19,6 @@ body {
   font-style: normal;
   font-variation-settings: "wdth" 100, "GRAD" 0;
 }
-small {
-  font-family: "Roboto Serif", serif;
-}
 
 @media (min-width: 1600px) {
   #self-description {
@@ -45,6 +42,10 @@ small {
   #education-container {
     position: relative;
     left: 10%;
+  }
+  #self_description_intro {
+    position: relative;
+    left: 5%;
   }
 }
 .navbar-logo {
