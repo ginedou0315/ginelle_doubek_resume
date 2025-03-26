@@ -70,16 +70,16 @@ body {
   align-items: center;
   text-align: justify;
 }
-#job_based {
-  font-family: "Fleur De Leah", serif;
-  font-size: 30px;
-  font-style: normal;
-}
 #ginelle_doubek {
   font-family: "Fleur De Leah", serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 70px;
+  font-size: 80px;
+}
+#job_based {
+  font-family: "Fleur De Leah", serif;
+  font-size: 35px;
+  font-style: normal;
 }
 
 .self_description {
