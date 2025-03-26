@@ -20,7 +20,7 @@ body {
   font-variation-settings: "wdth" 100, "GRAD" 0;
 }
 
-@media (min-width: 1500px) {
+@media (min-width: 1600px) {
   #self-description {
     position: relative;
     bottom: 60%;
@@ -86,12 +86,27 @@ body {
   align-items: center;
   text-align: justify;
 }
-
+#ginelle {
+  position: relative;
+  left: 10%;
+}
 #ginelle_doubek {
   font-family: "Fleur De Leah", serif;
   font-weight: 400;
   font-style: normal;
   font-size: 80px;
+  color: #9d75d9;
+  background-image: linear-gradient(
+    45deg,
+    #9d75d9 25%,
+    #f6ddb7 47%,
+    #714fa5 27%,
+    #f6ddb7 66%,
+    #b388eb 25%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 #job_based {
   font-family: "Fleur De Leah", serif;
@@ -107,7 +122,6 @@ body {
 }
 
 #description-container {
-  /*background-image: url(/images/abstract_purple_pink.jpg) !important;*/
   margin-top: 30px;
 }
 #self-description {
