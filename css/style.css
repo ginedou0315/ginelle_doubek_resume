@@ -248,7 +248,7 @@ button {
   width: 70%;
   align-items: center;
   position: relative;
-  left: 17%;
+  left: 20%;
 }
 .input_element {
   padding: 12px;
@@ -358,61 +358,4 @@ footer {
 }
 .hobbies i {
   color: #b336fe;
-}
-.wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.text-container {
-  display: flex;
-}
-.text-container h3 {
-  text-align: center;
-  margin-left: 15px;
-  line-height: 90px;
-  height: 60px;
-  font-size: 30px;
-  font-weight: 400;
-  overflow: hidden;
-}
-.text-container .dynamic-text {
-  line-height: 90px;
-  height: 60px;
-  overflow: hidden;
-}
-.dynamic-text li {
-  list-style: none;
-  color: #c5b3e6;
-  font-size: 30px;
-  font-weight: 500;
-  top: 0;
-  animation: slide 12s steps(4) infinite;
-}
-@keyframes slide {
-  100% {
-    top: -360px;
-  }
-}
-.dynamic-text li {
-  position: relative;
-}
-.dynamic-text li::after {
-  content: "";
-  position: absolute;
-  background: #220329;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  border-left: 2px solid plum;
-  animation: typing 3s steps(10) infinite;
-}
-@keyframes typing {
-  40%,
-  60% {
-    left: calc(100% + 30px);
-  }
-  100% {
-    left: 0;
-  }
 }
