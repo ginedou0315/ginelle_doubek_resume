@@ -25,6 +25,12 @@ body {
     position: relative;
     bottom: 60%;
   }
+  #ginelle {
+    width: 390px !important;
+    height: 500px !important;
+    position: relative;
+    left: 10%;
+  }
 }
 .navbar-logo {
   font-family: "Great Vibes", serif;
@@ -76,6 +82,7 @@ body {
   align-items: center;
   text-align: justify;
 }
+
 #ginelle_doubek {
   font-family: "Fleur De Leah", serif;
   font-weight: 400;
