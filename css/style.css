@@ -368,3 +368,8 @@ footer {
 .hobbies i {
   color: #b336fe;
 }
+#tableau {
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background: var(--primary-color);
+}
