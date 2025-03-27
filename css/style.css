@@ -267,17 +267,19 @@ button {
   border-radius: 10px;
   line-height: 15px;
   color: #3b1e54;
+  background: var(--primary-color);
 }
 #question-request {
   text-align: center;
 }
 .submit_button {
   margin-left: 10px;
-  background: var(--primary-color);
-  color: var(--secondary-color);
+  background: var(--body-color);
+  color: var(--primary-color);
   border: none;
   width: 100px;
-  font-size: 12px;
+  font-size: 14px;
+  font-weight: bold;
   border-radius: 20px;
   padding: 10px 20px;
 }
