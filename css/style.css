@@ -313,7 +313,8 @@ button {
   }
 }
 .button_container,
-#title_AI {
+#title_AI,
+#intro_AI {
   position: relative;
   left: 5%;
 }
