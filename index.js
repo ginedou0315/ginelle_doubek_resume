@@ -23,8 +23,12 @@ const translations = {
     contact: "Contacts",
     name: "Ginelle Doubek",
     description: '"I am a woman of action."',
-    introduction:
-      "At the beginning of my career, I was leaning towards of becoming a researcher. I finished my Bachelors in Agricultural Economics and majored in Price and Marketing analysis. My first job was in Data management for local projects that my previous university was conducting. I was collecting and storing information from each projects assigned to me. I only stayed on the job for one year and started to look for something more challenging. I moved to the city and found a job as a Sales Assistant. Just a month being in the position, my immediate manager saw the potential in me and promoted me to Sales Manager. This started my journey in Sales and Marketing from working with different multinational companies like Unilever, Procter & Gamble and Nestle. After a few years working in Sales, I took break to study Master in Business Management. During this time, I also worked as Research assistant part-time for a non-profit organization (International Rice Research Institute).",
+    firstParagraph:
+      "I began my career leaning towards becoming a Researcher, completing a Bachelor's in Agricultural Economics majoring in Price and Marketing analysis. My first job was in Data Management for university projects, but after a year, I yearned for more challenge and transitioned to Sales, where I quickly became a Sales Manager. This started my journey in Sales and Marketing, working with companies like Unilever, Procter & Gamble, and Nestle. Later, I took a break to pursue a Master's in Business Management and working part-time as a Research Assistant for the International Rice Research Institute.",
+    secondParagraph:
+      "I moved to Dubai, UAE, where I worked in hotel sales, advancing from Sales Specialist at Sheraton JBR to the Global Sales Office for Starwood Hotels. During my first year in Dubai, I met my husband, and after two years of dating, we got married. Following 8 good years in Dubai, we relocated to Switzerland where my husband's job is permanently based. My first 2 years in Switzerland, I continued working remotely for a Dubai-based company and made use of this time learning German. My first Swiss role was as Congress Coordinator for EULAR in Zurich.",
+    thirdParagraph:
+      "In 2023, I discovered a passion for coding and web development, I completed various online courses. This experience has ignited my desire to learn and grow in this field. I have honed my skills in HTML, CSS, and JavaScript over the past 2 years. I've created applications and websites, combining my diverse professional experiences with dedication and drive. My optimism and self belief empower me to overcome challenges. 'Quitting' is not in my vocabulary. I live by the mantra, 'When the going gets tough, the tough get going.'",
     experience: "Experience",
     education: "Education",
     downloadcv: "Download CV",
@@ -42,8 +46,12 @@ const translations = {
     contact: "Kontakte",
     name: "Ginelle Doubek",
     description: '"Ich bin eine Frau der Tat."',
-    introduction:
-      "Zu Beginn meiner Laufbahn tendierte ich dazu, Forscher zu werden. Ich habe meinen Bachelor in Agrarwirtschaft mit dem Schwerpunkt Preis- und Marketinganalyse gemacht. Mein erster Job war das Datenmanagement für lokale Projekte, die meine frühere Universität durchführte. Ich sammelte und speicherte Informationen aus allen mir zugewiesenen Projekten. Ich blieb nur ein Jahr in diesem Job und suchte nach einer größeren Herausforderung. Ich zog in die Stadt und fand eine Stelle als Vertriebsassistentin. Nach nur einem Monat in dieser Position erkannte mein direkter Vorgesetzter das Potenzial in mir und beförderte mich zum Vertriebsleiter. Damit begann meine Reise in den Bereich Vertrieb und Marketing, wo ich für verschiedene multinationale Unternehmen wie Unilever, Procter & Gamble und Nestle arbeitete. Nach einigen Jahren im Vertrieb machte ich eine Pause, um meinen Master in Business Management zu machen. Während dieser Zeit arbeitete ich auch als Forschungsassistentin in Teilzeit für eine gemeinnützige Organisation (International Rice Research Institute).",
+    firstParagraph:
+      "Ich begann meine Karriere mit einem Bachelor in Agrarökonomie mit Schwerpunkt Preis- und Marketinganalyse und wollte Forscher werden. Meine erste Stelle war im Datenmanagement für Universitätsprojekte, aber nach einem Jahr sehnte ich mich nach einer größeren Herausforderung und wechselte in den Vertrieb, wo ich schnell zur Vertriebsleiterin wurde. Damit begann meine Reise im Bereich Vertrieb und Marketing, wo ich mit Unternehmen wie Unilever, Procter & Gamble und Nestle zusammenarbeitete. Später machte ich eine Pause, um einen Master in Business Management zu machen in Business Management und arbeitete in Teilzeit als Forschungsassistentin Forschungsassistentin für das International Rice Research Institute.",
+    secondParagraph:
+      "Ich zog nach Dubai, Vereinigte Arabische Emirate, wo ich im Hotelvertrieb arbeitete und vom Verkaufsspezialisten im Sheraton JBR zum globalen Verkaufsbüro für Starwood Hotels aufstieg. Während meines ersten Jahres in Dubai lernte ich meinen Mann kennen, und nach zwei Jahren Beziehung heirateten wir. Nach 8 guten Jahren in Dubai zogen wir in die Schweiz um, wo mein Mann seinen festen Arbeitsplatz hat. In den ersten 2 Jahren in der Schweiz arbeitete ich weiterhin per Fernzugriff für ein Unternehmen in Dubai und nutzte diese Zeit, um Deutsch zu lernen. Meine erste Aufgabe in der Schweiz war die eines Kongresskoordinators für die EULAR in Zürich.",
+    thirdParagraph:
+      "Im Jahr 2023 entdeckte ich meine Leidenschaft für Programmierung und Webentwicklung und absolvierte verschiedene Online-Kurse. Diese Erfahrung hat meinen Wunsch geweckt, in diesem Bereich zu lernen und zu wachsen. In den letzten 2 Jahren habe ich meine Fähigkeiten in HTML, CSS und JavaScript verfeinert. Ich habe Anwendungen und Websites erstellt und dabei meine vielfältigen beruflichen Erfahrungen mit Hingabe und Tatkraft kombiniert. Mein Optimismus und mein Selbstvertrauen helfen mir, Herausforderungen zu meistern. „Aufgeben“ gehört nicht zu meinem Wortschatz. Ich lebe nach dem Mantra: „Wenn es hart auf hart kommt, gehen die Harten weiter“.",
     experience: "Erfahrung",
     education: "Ausbildung",
     downloadcv: "CV Herunterladen",
@@ -64,8 +72,12 @@ function switchLanguage(lang) {
   document.querySelector("#ginelle_doubek").innerText = translations[lang].name;
   document.querySelector("#job_based").innerText =
     translations[lang].description;
-  document.querySelector(".self_description").innerText =
-    translations[lang].introduction;
+  document.querySelector("#intro_first_paragraph").innerText =
+    translations[lang].firstParagraph;
+  document.querySelector("#intro_second_paragraph").innerText =
+    translations[lang].secondParagraph;
+  document.querySelector("#intro_third_paragraph").innerText =
+    translations[lang].thirdParagraph;
   document.querySelector(
     'button[aria-controls="multiCollapseExample1"]'
   ).innerText = translations[lang].experience;
