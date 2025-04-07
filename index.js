@@ -29,6 +29,8 @@ const translations = {
       "I moved to Dubai, UAE, where I worked in hotel sales, advancing from Sales Specialist at Sheraton JBR to the Global Sales Office for Starwood Hotels. During my first year in Dubai, I met my husband, and after two years of dating, we got married. Following 8 good years in Dubai, we relocated to Switzerland where my husband's job is permanently based. My first 2 years in Switzerland, I continued working remotely for a Dubai-based company and made use of this time learning German. My first Swiss role was as Congress Coordinator for EULAR in Zurich.",
     thirdParagraph:
       "In 2023, I discovered a passion for coding and web development, I completed various online courses. This experience has ignited my desire to learn and grow in this field. I have honed my skills in HTML, CSS, and JavaScript over the past 2 years. I've created applications and websites, combining my diverse professional experiences with dedication and drive. My optimism and self belief empower me to overcome challenges. 'Quitting' is not in my vocabulary. I live by the mantra, 'When the going gets tough, the tough get going.'",
+    AI_title: "Get to know me more!",
+    AI_intro: "'Ginny's AI is trained to answer your question below.'🤓",
     experience: "Experience",
     education: "Education",
     downloadcv: "Download CV",
@@ -52,6 +54,8 @@ const translations = {
       "Ich zog nach Dubai, Vereinigte Arabische Emirate, wo ich im Hotelvertrieb arbeitete und vom Verkaufsspezialisten im Sheraton JBR zum globalen Verkaufsbüro für Starwood Hotels aufstieg. Während meines ersten Jahres in Dubai lernte ich meinen Mann kennen, und nach zwei Jahren Beziehung heirateten wir. Nach 8 guten Jahren in Dubai zogen wir in die Schweiz um, wo mein Mann seinen festen Arbeitsplatz hat. In den ersten 2 Jahren in der Schweiz arbeitete ich weiterhin per Fernzugriff für ein Unternehmen in Dubai und nutzte diese Zeit, um Deutsch zu lernen. Meine erste Aufgabe in der Schweiz war die eines Kongresskoordinators für die EULAR in Zürich.",
     thirdParagraph:
       "Im Jahr 2023 entdeckte ich meine Leidenschaft für Programmierung und Webentwicklung und absolvierte verschiedene Online-Kurse. Diese Erfahrung hat meinen Wunsch geweckt, in diesem Bereich zu lernen und zu wachsen. In den letzten 2 Jahren habe ich meine Fähigkeiten in HTML, CSS und JavaScript verfeinert. Ich habe Anwendungen und Websites erstellt und dabei meine vielfältigen beruflichen Erfahrungen mit Hingabe und Tatkraft kombiniert. Mein Optimismus und mein Selbstvertrauen helfen mir, Herausforderungen zu meistern. „Aufgeben“ gehört nicht zu meinem Wortschatz. Ich lebe nach dem Mantra: „Wenn es hart auf hart kommt, gehen die Harten weiter“.",
+    AI_title: "Lernen Sie mich besser kennen!",
+    AI_intro: "'Ginny's AI ist darauf trainiert, Ihre Frage zu beantworten.'🤓",
     experience: "Erfahrung",
     education: "Ausbildung",
     downloadcv: "CV Herunterladen",
@@ -78,6 +82,8 @@ function switchLanguage(lang) {
     translations[lang].secondParagraph;
   document.querySelector("#intro_third_paragraph").innerText =
     translations[lang].thirdParagraph;
+  document.querySelector("#title_AI").innerText = translations[lang].AI_title;
+  document.querySelector("#intro_AI").innerText = translations[lang].AI_intro;
   document.querySelector(
     'button[aria-controls="multiCollapseExample1"]'
   ).innerText = translations[lang].experience;
