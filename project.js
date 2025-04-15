@@ -10,7 +10,9 @@ const translations = {
       "Created an advanced weather forecasting application that provides detailed weather information for any searched city. The app displays current weather conditions, sunrise and sunset times, and a 5-day weather forecast, offering users comprehensive weather data for better planning.",
     recipeDescrition:
       "Created an innovative AI-driven recipe generator that offers users the simplest and most delicious recipes based on entered ingredients or specific recipe searches. The CHEF AI leverages advanced algorithms to provide easy-to-follow cooking instructions, ensuring users can make the most of the ingredients they have on hand.",
-
+    travelDescrition:
+      "This project is created to showcase and practice my skills in creating website using only CSS to style the whole HTML. This includes Hero, Footer, Cards, Grids, Embeds, CSS Filters and HTML Table. I chose Prague as its one of my second home here in Europe.",
+    otherProjectDescrition: "Other Projects...",
     // Add more translations as needed
   },
   de: {
@@ -24,7 +26,9 @@ const translations = {
       "Erstellung einer fortschrittlichen Wettervorhersageanwendung, die detaillierte Wetterinformationen für jede gesuchte Stadt liefert. Die App zeigt die aktuellen Wetterbedingungen, die Zeiten für Sonnenauf- und -untergang sowie eine 5-Tage-Wettervorhersage an und bietet den Nutzern umfassende Wetterdaten für eine bessere Planung.",
     recipeDescrition:
       "Entwicklung eines innovativen, KI-gesteuerten Rezeptgenerators, der den Nutzern die einfachsten und leckersten Rezepte auf der Grundlage der eingegebenen Zutaten oder einer spezifischen Rezeptsuche anbietet. Die CHEF-KI nutzt fortschrittliche Algorithmen, um einfach zu befolgende Kochanleitungen zu liefern und sicherzustellen, dass die Nutzer das Beste aus den Zutaten machen können, die sie zur Hand haben.",
-
+    travelDescrition:
+      "Dieses Projekt wurde erstellt, um meine Fähigkeiten bei der Erstellung von Websites zu demonstrieren und zu üben, indem ich nur CSS zur Gestaltung des gesamten HTML-Stils verwende. Dazu gehören Hero, Footer, Cards, Grids, Embeds, CSS-Filter und HTML-Tabelle. Ich habe mich für Prag entschieden, da es eine meiner zweiten Heimaten hier in Europa ist.",
+    otherProjectDescrition: "Weitere Projekte...",
     // Add more translations as needed
   },
 };
@@ -41,4 +45,8 @@ function switchLanguage(lang) {
     translations[lang].forecastDescription;
   document.querySelector("#recipe_ai").innerText =
     translations[lang].recipeDescrition;
+  document.querySelector("#travel_website").innerText =
+    translations[lang].travelDescrition;
+  document.querySelector("#other_projects").innerText =
+    translations[lang].otherProjectDescrition;
 }
