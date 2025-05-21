@@ -22,13 +22,9 @@ const translations = {
     portfolio: "Portfolio",
     contact: "Contacts",
     name: "Ginelle Doubek",
-    description: '"I am a woman of action."',
-    firstParagraph:
-      "I began my career leaning towards becoming a Researcher, completing a Bachelor's in Agricultural Economics majoring in Price and Marketing analysis. My first job was in Data Management for university projects, but after a year, I yearned for more challenge and transitioned to Sales, where I quickly became a Sales Manager. This started my journey in Sales and Marketing, working with companies like Unilever, Procter & Gamble, and Nestle. Later, I took a break to pursue a Master's in Business Management and working part-time as a Research Assistant for the International Rice Research Institute.",
-    secondParagraph:
-      "I moved to Dubai, UAE, where I worked in hotel sales, advancing from Sales Specialist at Sheraton JBR to the Global Sales Office for Starwood Hotels. During my first year in Dubai, I met my husband, and after two years of dating, we got married. Following 8 good years in Dubai, we relocated to Switzerland where my husband's job is permanently based. My first 2 years in Switzerland, I continued working remotely for a Dubai-based company and made use of this time learning German. My first Swiss role was as Congress Coordinator for EULAR in Zurich.",
-    thirdParagraph:
-      "In 2023, I discovered a passion for coding and web development, I completed various online courses. This experience has ignited my desire to learn and grow in this field. I have honed my skills in HTML, CSS, and JavaScript over the past 2 years. I've created applications and websites, combining my diverse professional experiences with dedication and drive. My optimism and self belief empower me to overcome challenges. 'Quitting' is not in my vocabulary. I live by the mantra, 'When the going gets tough, the tough get going.'",
+    description:
+      '"Innovative Front-End Developer: Coding, Creating, Connecting."',
+    firstParagraph: `A creative web developer with a diverse background in research, sales, and international business, I bring a unique perspective to creating innovative and user-friendly web solutions in software and web development. I completed a Full Stack Web Development Bootcamp with SheCodes and gained experience in React, Bootstrap, and responsive design. I enjoy using tools like VSCode, Github, and Microsoft Windows to build projects and I'm particularly interested in AI solutions. My career journey began in agricultural economics and evolved through roles at Unilever, Procter & Gamble, and Nestle, leading to a Master's in Business Management. With a passion to become a front-end developer and a love for React projects, I am eager to contribute my skills and experience to impactful projects in the IT industry. My experience in diverse roles has instilled in me the mantra, "When the going gets tough, the tough get going."`,
     AI_title: "Get to know me more!",
     AI_intro: "'Ginny's AI is trained to answer your question below.'🤓",
     experience: "Experience",
@@ -47,13 +43,9 @@ const translations = {
     portfolio: "Projekte",
     contact: "Kontakte",
     name: "Ginelle Doubek",
-    description: '"Ich bin eine Frau der Tat."',
-    firstParagraph:
-      "Ich begann meine Karriere mit einem Bachelor in Agrarökonomie mit Schwerpunkt Preis- und Marketinganalyse und wollte Forscher werden. Meine erste Stelle war im Datenmanagement für Universitätsprojekte, aber nach einem Jahr sehnte ich mich nach einer größeren Herausforderung und wechselte in den Vertrieb, wo ich schnell zur Vertriebsleiterin wurde. Damit begann meine Reise im Bereich Vertrieb und Marketing, wo ich mit Unternehmen wie Unilever, Procter & Gamble und Nestle zusammenarbeitete. Später machte ich eine Pause, um einen Master in Business Management zu machen in Business Management und arbeitete in Teilzeit als Forschungsassistentin Forschungsassistentin für das International Rice Research Institute.",
-    secondParagraph:
-      "Ich zog nach Dubai, Vereinigte Arabische Emirate, wo ich im Hotelvertrieb arbeitete und vom Verkaufsspezialisten im Sheraton JBR zum globalen Verkaufsbüro für Starwood Hotels aufstieg. Während meines ersten Jahres in Dubai lernte ich meinen Mann kennen, und nach zwei Jahren Beziehung heirateten wir. Nach 8 guten Jahren in Dubai zogen wir in die Schweiz um, wo mein Mann seinen festen Arbeitsplatz hat. In den ersten 2 Jahren in der Schweiz arbeitete ich weiterhin per Fernzugriff für ein Unternehmen in Dubai und nutzte diese Zeit, um Deutsch zu lernen. Meine erste Aufgabe in der Schweiz war die eines Kongresskoordinators für die EULAR in Zürich.",
-    thirdParagraph:
-      "Im Jahr 2023 entdeckte ich meine Leidenschaft für Programmierung und Webentwicklung und absolvierte verschiedene Online-Kurse. Diese Erfahrung hat meinen Wunsch geweckt, in diesem Bereich zu lernen und zu wachsen. In den letzten 2 Jahren habe ich meine Fähigkeiten in HTML, CSS und JavaScript verfeinert. Ich habe Anwendungen und Websites erstellt und dabei meine vielfältigen beruflichen Erfahrungen mit Hingabe und Tatkraft kombiniert. Mein Optimismus und mein Selbstvertrauen helfen mir, Herausforderungen zu meistern. „Aufgeben“ gehört nicht zu meinem Wortschatz. Ich lebe nach dem Mantra: „Wenn es hart auf hart kommt, gehen die Harten weiter“.",
+    description:
+      '"Innovativer Front-End-Entwickler: Codieren, Erstellen, Verbinden."',
+    firstParagraph: `Als kreativer Webentwickler mit einem vielseitigen Hintergrund in den Bereichen Forschung, Vertrieb und internationales Geschäft bringe ich eine einzigartige Perspektive für die Erstellung innovativer und benutzerfreundlicher Web-Lösungen in der Software- und Webentwicklung mit. Ich habe ein Full Stack Web Development Bootcamp mit SheCodes absolviert und Erfahrungen in React, Bootstrap und Responsive Design gesammelt. Ich verwende gerne Tools wie VSCode, Github und Microsoft Windows, um Projekte zu erstellen und interessiere mich besonders für KI-Lösungen. Mein beruflicher Werdegang begann in der Agrarwirtschaft und führte mich über Stationen bei Unilever, Procter & Gamble und Nestle zu einem Master in Business Management. Mit meiner Leidenschaft als Front-End-Entwickler und meiner Liebe zu React-Projekten möchte ich meine Fähigkeiten und Erfahrungen in wirkungsvolle Projekte in der IT-Branche einbringen. Meine Erfahrung in verschiedenen Rollen hat mir das Mantra eingeflößt:"Wenn es hart auf hart kommt, gehen die Harten los."`,
     AI_title: "Lernen Sie mich besser kennen!",
     AI_intro: "'Ginny's AI ist darauf trainiert, Ihre Frage zu beantworten.'🤓",
     experience: "Erfahrung",
