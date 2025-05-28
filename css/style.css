@@ -186,41 +186,24 @@ body {
   top: 10px;
   left: -42px;
 }
-.job-description h3,
-.education-description h3 {
-  font-size: 20px;
-  margin: 0;
-  text-transform: uppercase;
-  font-family: merienda;
-}
-.job-description h4,
-.education-description h4 {
-  font-size: 15px;
-  margin: 0;
-  font-family: poppins;
-}
 
 button {
-  color: var(--primary-color) !important;
-  background: #1f0725 !important;
-  border: 1px solid var(--primary-color) !important;
+  color: var(--primary-color);
+  background: #1f0725;
+  border: 1px solid var(--primary-color);
 }
 
-#experience {
-  width: 1000px !important;
-  position: relative;
-  left: 14%;
-}
-
+#experience,
 #education {
-  width: 1000px !important;
-  position: relative;
-  right: 63%;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 .photos-wrapper {
   overflow: hidden;
   display: flex;
-  margin-left: 150px;
+  margin-left: 130px;
 }
 .imageContainer {
   display: flex;
@@ -241,13 +224,11 @@ button {
   padding: 10px;
   background-color: #9575de;
   border-radius: 5px;
-  margin-bottom: 15px;
-  box-shadow: 0px 4px 30px 0px rgb(214, 109, 214);
+  box-shadow: 0px 4px 30px rgba(214, 109, 214, 0.8);
   margin-top: 20px;
   width: 70%;
-  align-items: center;
-  position: relative;
   left: 20%;
+  position: relative;
 }
 .input_element {
   padding: 12px;
@@ -328,17 +309,13 @@ button {
   background: #b336fe;
   margin: 15px;
 }
-
-footer a {
-  font-size: 20px;
-  color: var(--primary-color) !important;
-  text-decoration: none;
-}
-footer small {
-  color: var(--primary-color) !important;
-}
 footer {
   background: #131313;
+}
+footer a {
+  font-size: 20px;
+  color: var(--primary-color);
+  text-decoration: none;
 }
 
 .contact_icons a {
