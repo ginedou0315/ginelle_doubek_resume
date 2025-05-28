@@ -318,11 +318,7 @@ button {
   background: #b336fe;
   margin: 15px;
 }
-footer {
-  background: #131313;
-  margin-bottom: none;
-  padding: none;
-}
+
 footer a {
   font-size: 20px;
   color: var(--primary-color);
