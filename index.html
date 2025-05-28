@@ -6,6 +6,8 @@
       name="description"
       content="Ginelle Doubek's Website provides her background information such as Experience, Education and Skills."
     />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Scripts and icons -->
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
     <script
@@ -13,6 +15,7 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+       <!-- Fonts and Styles -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -77,7 +80,7 @@
     </nav>
     <div class="container pb-4" id="description-container">
       <div class="row">
-        <div class="col-lg-4 text-center pt-5 mt-5">
+        <div class="col-12 col-md-4 text-center pt-5 mt-5">
           <img
             src="images/ginelle_transparent.png"
             class="img-fluid rounded"
@@ -86,7 +89,7 @@
             title="Ginny"
           />
         </div>
-        <div class="col-md-8 primary-text" id="self-description">
+        <div class="col-12 col-md-8 primary-text" id="self-description">
           <h1 class="text-center" id="ginelle_doubek">Ginelle Doubek</h1>
           <h3 class="text-center">~Ginny~</h3>
           <p class="text-center mt-2 mb-3" id="job_based">
@@ -101,7 +104,8 @@
                 software and web development. I completed a Full Stack Web
                 Development Bootcamp with SheCodes and gained experience in
                 React, Bootstrap, and responsive design. I enjoy using tools
-                like VSCode, <a href="https://github.com/ginedou0315" target="_blank">Github</a>, <a href="https://public.tableau.com/app/profile/ginelle.doubek/vizzes" target="_blank">Tableau</a> and Microsoft Windows to build projects and
+                like VSCode, <a href="https://github.com/ginedou0315" target="_blank">Github</a>, 
+                <a href="https://public.tableau.com/app/profile/ginelle.doubek/vizzes" target="_blank">Tableau</a> and Microsoft Windows to build projects and
                 I'm particularly interested in AI solutions. My career journey
                 began in agricultural economics and evolved through roles at
                 Unilever, Procter & Gamble, and Nestle, leading to a Master's in
@@ -109,7 +113,7 @@
                 developer and a love for React projects, I am eager to
                 contribute my skills and experience to impactful projects in the
                 IT industry. My experience in diverse roles has instilled in me
-                the mantra, 'When the going gets tough, the tough get going.
+                the mantra, 'When the going gets tough, the tough get going.'
               </div>
               <div class=" mb-5 ps-5">
                 Game Developed:
@@ -144,7 +148,6 @@
               />
               <input type="submit" class="submit_button" />
             </form>
-
             <div class="question hidden pt-3" id="question"></div>
           </div>
         </div>
@@ -153,47 +156,39 @@
 
     <div class="button_container">
       <div class="text-center mt-5 ms-5">
-        <p class="d-inline-flex gap-5">
+        <div class="d-flex flex-wrap gap-3 justify-content-center">
           <button
-            class="btn btn-primary px-5 collapsible"
-            type="button"
-            data-bs-toggle="collapse"
-            data-target="content1"
-            data-bs-target="#multiCollapseExample1"
-            aria-expanded="false"
-            aria-controls="multiCollapseExample1"
+          class="btn btn-primary px-5 collapsible"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#multiCollapseExample1"
+          aria-expanded="false"
+          aria-controls="multiCollapseExample1"  
           >
             Experience
           </button>
           <button
-            class="btn btn-primary px-5 collapsible"
-            type="button"
-            data-bs-toggle="collapse"
-            data-target="content2"
-            data-bs-target="#multiCollapseExample2"
-            aria-expanded="false"
-            aria-controls="multiCollapseExample2"
+          class="btn btn-primary px-5 collapsible"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#multiCollapseExample2"
+          aria-expanded="false"
+          aria-controls="multiCollapseExample2"  
           >
             Education
           </button>
-          <button
-            class="btn btn-primary px-5 collapsible"
-            type="button"
-            data-target="content3"
-            aria-controls="multiCollapseExample3"
-          >
-            <a
-              class="download_cv"
-              href="/files/Ginelle_Doubek_CV_April2025_Final.pdf"
-              target="_blank"
-              title="Ginny's Resume"
-            >
-              Download CV</a
-            >
-          </button>
-        </p>
-        <div class="row">
-          <div class="col -4" id="experience-container">
+          <a
+          class="btn btn-primary px-5"
+          href="/files/Ginelle_Doubek_CV_April2025_Final.pdf"
+          target="_blank"
+          title="Ginny's Resume"
+        >
+          Download CV
+        </a>  
+        </div>
+      
+        <div class="row mt-4">
+          <div class="col-12 col-md-4" id="experience-container">
             <div class="collapse multi-collapse" id="multiCollapseExample1">
               <div class="card card-body" id="experience">
                 <div class="timeline-area">
@@ -216,7 +211,7 @@
               </div>
             </div>
           </div>
-          <div class="col-4" id="education-container">
+          <div class="col-12 col-md-4" id="education-container">
             <div class="collapse multi-collapse" id="multiCollapseExample2">
               <div class="card card-body" id="education">
                 <div class="timeline-area">
@@ -468,15 +463,15 @@
           <h2 id="languages">Languages</h2>
           <div class="row row-cols-3 text-center mt-3">
             <div class="col hobbies mt-2 text-center">
-              <div class="langauge-class">C1</div>
+              <div class="language-class">C1</div>
               <div>English</div>
             </div>
             <div class="col hobbies mt-2 text-center">
-              <div class="langauge-class">B2</div>
+              <div class="language-class">B2</div>
               <div>German</div>
             </div>
             <div class="col hobbies mt-2 text-center">
-              <div class="langauge-class">Dialect</div>
+              <div class="language-class">Dialect</div>
               <div>Filipino</div>
             </div>
           </div>
