@@ -131,10 +131,6 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-#job_based {
-  font-size: 20px;
-  font-style: normal;
-}
 
 .self_description {
   max-width: 100%;
@@ -143,31 +139,16 @@ body {
   font-size: 15px;
 }
 
-#description-container {
-  margin-top: 30px;
-}
 #self-description {
   margin-top: 20px;
   padding-top: 50px;
-}
-
-.card-body {
-  width: 430px;
-  padding-top: 0% !important;
-  background: var(--primary-color);
 }
 
 .download_cv {
   text-decoration: none;
   color: var(--primary-color);
 }
-.timeline-area {
-  margin-left: 20px;
-  width: 90%;
-  border-left: 2px solid #ccc;
-  padding: 30px 20px 0 30px;
-  background-color: var(--primary-color);
-}
+
 .job-description,
 .education-description {
   background-color: #1f0725;
@@ -178,7 +159,6 @@ body {
   position: relative;
   height: 130px;
   margin-bottom: 20px;
-  padding-top: 10px;
 }
 .job-description:before,
 .education-description::before {
@@ -196,14 +176,15 @@ body {
 .job-description:after,
 .education-description:after {
   content: "";
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-color: transparent #1f0725 transparent transparent;
-  border-width: 8px;
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #1f0725;
+  border: 3px solid black;
   position: absolute;
-  left: -17px;
   top: 10px;
+  left: -42px;
 }
 .job-description h3,
 .education-description h3 {
