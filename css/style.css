@@ -350,3 +350,93 @@ footer a {
   border-radius: 5px;
   background: var(--primary-color);
 }
+#mobileMenuToggle {
+  background: #6b55a8;
+}
+
+@media only screen and (max-width: 600px) {
+  .side-nav {
+    display: none;
+  }
+  .container,
+  .container_AI,
+  .apps-hobby-container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #description-container,
+  #self-description {
+    padding: 10px 5px;
+    text-align: center;
+  }
+
+  #ginelle {
+    width: 80%;
+    max-width: 250px;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .photos-wrapper .imageContainer a img {
+    width: 100%;
+    max-width: 300px;
+    margin: 5px auto;
+    display: block;
+  }
+
+  .button_container .d-flex {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .button_container p {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .card-body {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .row[class*="row-cols-"] {
+    gap: 10px;
+  }
+
+  .skills,
+  .hobbies i,
+  .language-class {
+    font-size: 1.2rem;
+  }
+  .cert_container {
+    display: none;
+  }
+
+  h1,
+  h2,
+  h3 {
+    text-align: center;
+    padding: 0 10px;
+  }
+  .skills-grid,
+  .hobbies-grid,
+  .languages-grid {
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+  .section h2 {
+    text-align: center;
+  }
+}
+
+footer {
+  padding: 15px;
+  font-size: 14px;
+  text-align: center;
+}
+
+footer a {
+  font-size: 14px;
+}

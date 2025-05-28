@@ -41,6 +41,37 @@
   </head>
   <body>
     <nav class="nav-bar">
+      <!-- Mobile Toggle Button: Visible only on small screens -->
+      <button id="mobileMenuToggle" class="btn btn-secondary d-md-none">
+        Menu
+      </button>
+    
+      <!-- Mobile Navigation Menu: Initially hidden; toggled via JavaScript on mobile -->
+      <nav id="mobileMenu" class="d-none d-md-none">
+        <ul class="nav-links">
+          <li>
+            <a href="./index.html" title="Homepage">
+              <i class="fa fa-home" aria-hidden="true"></i>Homepage
+            </a>
+          </li>
+          <li>
+            <a href="/resume.html" title="Resume">
+              <i class="fa-solid fa-list-check"></i>Resume
+            </a>
+          </li>
+          <li>
+            <a href="/project.html" title="Projects">
+              <i class="fa-solid fa-briefcase"></i>Projects
+            </a>
+          </li>
+          <li>
+            <a href="/#email" title="Contacts">
+              <i class="fa-solid fa-address-book"></i>Contacts
+            </a>
+          </li>
+        </ul>
+      </nav>
+    
       <div class="side-nav">
         <a href="./index.html" class="navbar-logo" title="GinnyD's Logo">GD</a>
         <ul class="nav-links">
@@ -250,7 +281,7 @@
     </div>
     <div class="apps-hobby-container mx-5 px-5">
       <div class="row">
-        <div class="col-7 border-end ps-5">
+        <div class="skills-grid col-7 border-end ps-5">
           <h2 class="text-center" id="skills">Skills</h2>
           <div class="row row-cols-3">
             <div class="col mt-2 text-center">
@@ -417,7 +448,7 @@
             </div>
           </div>
         </div>
-        <div class="col-5 ps-5">
+        <div class="hobbies-grid col-5 ps-5">
           <h2 class="text-center" id="hobbies">Hobbies</h2>
           <div class="row row-cols-3 text-center mt-3">
             <div class="col hobbies mt-2">
@@ -460,7 +491,7 @@
             </div>
           </div>
           <br /><br />
-          <div class="col-12 ">
+          <div class="languages-grid col-12 ">
           <h2 class="text-center" id="languages">Languages</h2>
           <div class="row row-cols-3 text-center mt-3">
             <div class="col hobbies mt-2 text-center">

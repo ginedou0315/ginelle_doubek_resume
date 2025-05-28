@@ -145,3 +145,13 @@ function generateQuestion(event) {
 }
 let questionFormElement = document.querySelector("#question-request");
 questionFormElement.addEventListener("submit", generateQuestion);
+
+// Example: Toggle a hidden mobile menu when a button is clicked
+document.addEventListener("DOMContentLoaded", () => {
+  const toggleButton = document.getElementById("mobileMenuToggle");
+  const mobileMenu = document.getElementById("mobileMenu");
+
+  toggleButton.addEventListener("click", () => {
+    mobileMenu.classList.toggle("d-none"); // Using Bootstrap's d-none class to hide/show
+  });
+});
