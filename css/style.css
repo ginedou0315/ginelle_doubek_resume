@@ -207,11 +207,12 @@ button {
   margin-left: auto;
   margin-right: auto;
 }
-
+.cert_container {
+  margin-left: 130px;
+}
 .photos-wrapper {
   overflow: hidden;
   display: flex;
-  margin-left: 130px;
 }
 .imageContainer {
   display: flex;
@@ -319,6 +320,8 @@ button {
 }
 footer {
   background: #131313;
+  margin-bottom: none;
+  padding: none;
 }
 footer a {
   font-size: 20px;
